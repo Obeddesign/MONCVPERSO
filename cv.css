@@ -1,0 +1,54 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Ajouter des séparations entre les sections */
+div:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+/* Style pour la dernière section des centres d'intérêts */
+div:last-child {
+    border: none;
+}
+
+section{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.outils{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
